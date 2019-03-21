@@ -1,0 +1,156 @@
+# dmidecode 3.0
+Getting SMBIOS data from sysfs.
+SMBIOS 2.6 present.
+
+Handle 0x0008, DMI type 5, 24 bytes
+Memory Controller Information
+	Error Detecting Method: 64-bit ECC
+	Error Correcting Capabilities:
+		None
+	Supported Interleave: One-way Interleave
+	Current Interleave: One-way Interleave
+	Maximum Memory Module Size: 2048 MB
+	Maximum Total Memory Size: 8192 MB
+	Supported Speeds:
+		Other
+	Supported Memory Types:
+		DIMM
+		SDRAM
+	Memory Module Voltage: 3.3 V
+	Associated Memory Slots: 4
+		0x0009
+		0x000A
+		0x000B
+		0x000C
+	Enabled Error Correcting Capabilities:
+		None
+
+Handle 0x0009, DMI type 6, 12 bytes
+Memory Module Information
+	Socket Designation: DIMM0
+	Bank Connections: 0 1
+	Current Speed: Unknown
+	Type: DIMM SDRAM
+	Installed Size: 2048 MB (Double-bank Connection)
+	Enabled Size: 2048 MB (Double-bank Connection)
+	Error Status: OK
+
+Handle 0x000A, DMI type 6, 12 bytes
+Memory Module Information
+	Socket Designation: DIMM1
+	Bank Connections: 2 3
+	Current Speed: Unknown
+	Type: DIMM SDRAM
+	Installed Size: 2048 MB (Double-bank Connection)
+	Enabled Size: 2048 MB (Double-bank Connection)
+	Error Status: OK
+
+Handle 0x000B, DMI type 6, 12 bytes
+Memory Module Information
+	Socket Designation: DIMM2
+	Bank Connections: 4 5
+	Current Speed: Unknown
+	Type: DIMM SDRAM
+	Installed Size: 2048 MB (Double-bank Connection)
+	Enabled Size: 2048 MB (Double-bank Connection)
+	Error Status: OK
+
+Handle 0x000C, DMI type 6, 12 bytes
+Memory Module Information
+	Socket Designation: DIMM3
+	Bank Connections: 6 7
+	Current Speed: Unknown
+	Type: DIMM SDRAM
+	Installed Size: Not Installed
+	Enabled Size: Not Installed
+	Error Status: OK
+
+Handle 0x0035, DMI type 16, 15 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 4 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 4
+
+Handle 0x0037, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: Not Provided
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 2048 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator: BANK0
+	Type: DDR
+	Type Detail: Synchronous
+	Speed: 1333 MHz
+	Manufacturer: Manufacturer0
+	Serial Number: SerNum0
+	Asset Tag: AssetTagNum0
+	Part Number: PartNum0
+	Rank: Unknown
+
+Handle 0x0039, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: Not Provided
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 2048 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM1
+	Bank Locator: BANK1
+	Type: DDR
+	Type Detail: Synchronous
+	Speed: 1333 MHz
+	Manufacturer: Manufacturer1
+	Serial Number: SerNum1
+	Asset Tag: AssetTagNum1
+	Part Number: PartNum1
+	Rank: Unknown
+
+Handle 0x003B, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: Not Provided
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 2048 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM2
+	Bank Locator: BANK2
+	Type: DDR
+	Type Detail: Synchronous
+	Speed: 1333 MHz
+	Manufacturer: Manufacturer2
+	Serial Number: SerNum2
+	Asset Tag: AssetTagNum2
+	Part Number: PartNum2
+	Rank: Unknown
+
+Handle 0x003D, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM3
+	Bank Locator: BANK3
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Manufacturer3
+	Serial Number: SerNum3
+	Asset Tag: AssetTagNum3
+	Part Number: PartNum3
+	Rank: Unknown
+
